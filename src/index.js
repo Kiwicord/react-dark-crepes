@@ -3,7 +3,7 @@ import ReactDom from "react-dom"
 import './index.css'
 
 
-function Nigger () {
+function MainContent () {
   return (
     <div className="home-content">
       <h4>I hate NIGGERS</h4>
@@ -29,7 +29,7 @@ function Navbar () {
           <a className='home-nav-css' href='home' to='/'>Home</a>
           <a href='about' to='/'>About</a>
           <a href='contact' to='/'>Contact</a>
-          <Profile/>
+          <Profile />
         </ul>
         
       </nav>
@@ -37,13 +37,13 @@ function Navbar () {
   )
 }
 
-function Cum() {
+function App() {
   return (
     <>
-    <Navbar/>
-    <Nigger/>
+    <Navbar />
+    <MainContent />
     </>
   )
 }
 
-ReactDom.render(<Cum/>,document.getElementById('root'))
+ReactDom.render(<App />,document.getElementById('root'))
