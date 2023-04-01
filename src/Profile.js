@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Profile() {
+export default function Profile(props) {
     return (
         <div className="nav-profile">
           <a href='https://youtube.com' to='/'>
-             <img src='https://cdn.discordapp.com/attachments/979283646571749396/1090292278607753256/br.png' alt='' width="50"/>
+             <img src={props.img_link} alt='' width="50"/>
           </a>
         </div>
       )
