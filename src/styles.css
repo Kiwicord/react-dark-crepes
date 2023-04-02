@@ -19,6 +19,10 @@ body {
     left: 90%;
 }
 
+.profile-img:hover {
+    opacity: 1.0;
+}
+
 .nav {
     font-size: 25px;
     background-color: rgb(5, 5, 4);
@@ -50,4 +54,8 @@ body {
     display: flex;
     align-items: center;
     padding: .25rem;
+}
+
+.profile-name {
+    font-size: 20px;
 }
