@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const MainContent = () => {
+const Home = () => {
 
     const [value, setValue] = useState('Kiwi Stinkt SEHR dolle...');
 
@@ -17,4 +17,4 @@ const MainContent = () => {
       ) 
 }
 
-export default MainContent;
+export default Home;

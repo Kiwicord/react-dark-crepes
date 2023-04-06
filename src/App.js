@@ -1,6 +1,6 @@
 import React from "react";
 
-import MainContent from "./Pages/Home";
+import Home from "./Pages/Home";
 import Contact from './Pages/Contact'
 import Navbar from "./Navbar";
 import About from "./Pages/About";
@@ -13,7 +13,7 @@ const App = () => {
         <Navbar/>
         <div className="wrapper">
             <Routes>
-                <Route path="/" element={<MainContent/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/About" element={<About/>}/>
             </Routes>
