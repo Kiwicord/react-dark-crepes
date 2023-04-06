@@ -1,4 +1,7 @@
+/* Text-Style */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+/* All */
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -9,18 +12,43 @@ body {
     background-color: rgb(20, 20, 20);
 }
 
+/* Pages */
 .home-content {
     padding-left: 10px;
     color: white;
 }
 
+.contact-content {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+#uno {
+    font-size: 30px;
+}
+#doux {
+    font-size: 20px;
+    padding-top: 10%;
+}
+#trese {
+    font-size: 20px;
+    padding-top: 3%;
+}
+#quatro {
+    font-size: 20px;
+    padding-top: 3%;
+}
+#longo {
+    font-size: 30px;
+    padding-top: 10%;
+}
+
+/* Nav-Bar */
 .nav-profile {
     position: absolute;
     left: 90%;
-}
-
-.profile-img:hover {
-    opacity: 1.0;
 }
 
 .nav {
@@ -54,6 +82,11 @@ body {
     display: flex;
     align-items: center;
     padding: .25rem;
+}
+
+/* Profile */
+.profile-img:hover {
+    opacity: 1.0;
 }
 
 .profile-name {
