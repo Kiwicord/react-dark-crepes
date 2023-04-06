@@ -6,7 +6,7 @@ const Profile = (props) => {
     return (
         <div className="nav-profile" style={props.disabled ? {pointerEvents: "none", opacity: "0.4"} : {}}>
           <a href='profile' onMouseEnter={() => setHoverContent(true)} onMouseLeave={() => setHoverContent(false)}>
-            {onHoverContent === true && <ProfileView profileName='Kiwious' friendsCount='1'/>}
+            {onHoverContent === true && <ProfileView profileName='Kiwious' friendsCount='2'/>}
             <img className='profile-img' src={props.img_link} alt='' width="50" />
           </a>
         </div>
