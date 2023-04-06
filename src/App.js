@@ -1,7 +1,7 @@
 import React from "react";
 
 import Home from "./Pages/Home";
-import Profile from "./Pages/Profile";
+import ProfilePage from "./Pages/ProfilePage";
 import Contact from './Pages/Contact'
 import Navbar from "./Navbar";
 import About from "./Pages/About";
@@ -17,7 +17,7 @@ const App = () => {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/about" element={<About/>}/>
-                <Route path="/profile" element={<Profile/>}/>
+                <Route path="/profile" element={<ProfilePage/>}/>
             </Routes>
         </div>
         </>
