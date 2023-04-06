@@ -13,7 +13,7 @@ const App = () => {
         <Navbar/>
         <div className="wrapper">
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/react-dark-crepes" element={<Home/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/About" element={<About/>}/>
             </Routes>
