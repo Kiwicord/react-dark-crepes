@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.397c36ab.css",
-    "main.js": "/static/js/main.e65e77c2.js",
-    "index.html": "/index.html",
-    "main.397c36ab.css.map": "/static/css/main.397c36ab.css.map",
-    "main.e65e77c2.js.map": "/static/js/main.e65e77c2.js.map"
+    "main.css": "/react-dark-crepes/static/css/main.397c36ab.css",
+    "main.js": "/react-dark-crepes/static/js/main.e65e77c2.js",
+    "index.html": "/react-dark-crepes/index.html",
+    "main.397c36ab.css.map": "/react-dark-crepes/static/css/main.397c36ab.css.map",
+    "main.e65e77c2.js.map": "/react-dark-crepes/static/js/main.e65e77c2.js.map"
   },
   "entrypoints": [
     "static/css/main.397c36ab.css",
