@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import ProfileView from './ProfileView'
 
-export default function Profile(props) {
+const Profile = (props) => {
     const [onHoverContent, setHoverContent] = useState(false)
     return (
         <div className="nav-profile" style={props.disabled ? {pointerEvents: "none", opacity: "0.4"} : {}}>
@@ -12,3 +12,5 @@ export default function Profile(props) {
         </div>
       )
 }
+
+export default Profile;

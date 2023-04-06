@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const MainContent = () => {
+const MainContent = () => {
 
     const [value, setValue] = useState('Kiwi Stinkt SEHR dolle...');
 
@@ -16,3 +16,5 @@ export const MainContent = () => {
         </div>
       ) 
 }
+
+export default MainContent;

@@ -3,7 +3,7 @@ import React from "react";
 import MainContent from "./MainContent";
 import Navbar from "./Navbar";
 
-export default function App() {
+const App = () => {
     return(
         <>
         <Navbar/>
@@ -11,3 +11,5 @@ export default function App() {
         </>
     )
 }
+
+export default App;

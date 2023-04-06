@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "./Profile";
 
-export default function Navbar() {
+const Navbar = () => {
     return (
         <div className="nav">
           <nav>
@@ -15,3 +15,5 @@ export default function Navbar() {
         </div>
       )
 }
+
+export default Navbar;
