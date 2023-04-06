@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-dark-crepes/static/css/main.5b82bd8e.css",
-    "main.js": "/react-dark-crepes/static/js/main.feef0d24.js",
+    "main.js": "/react-dark-crepes/static/js/main.926f4461.js",
     "index.html": "/react-dark-crepes/index.html",
     "main.5b82bd8e.css.map": "/react-dark-crepes/static/css/main.5b82bd8e.css.map",
-    "main.feef0d24.js.map": "/react-dark-crepes/static/js/main.feef0d24.js.map"
+    "main.926f4461.js.map": "/react-dark-crepes/static/js/main.926f4461.js.map"
   },
   "entrypoints": [
     "static/css/main.5b82bd8e.css",
-    "static/js/main.feef0d24.js"
+    "static/js/main.926f4461.js"
   ]
 }
