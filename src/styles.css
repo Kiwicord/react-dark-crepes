@@ -53,10 +53,6 @@ body {
 }
 
 /* Nav-Bar */
-.nav-profile {
-    position: absolute;
-    left: 90%;
-}
 
 .nav {
     font-size: 25px;
@@ -98,4 +94,9 @@ body {
 
 .profile-name {
     font-size: 20px;
+}
+
+.nav-profile {
+    position: absolute;
+    left: 90%;
 }
