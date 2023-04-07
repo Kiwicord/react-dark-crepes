@@ -1,6 +1,6 @@
 import React from "react";
-import Profile from "./Profile";
-import { Link, useMatch, useResolvedPath } from 'react-router-dom'
+import Profile from "./ProfileButton";
+import CustomLink from "./CustomLink";
 
 const Navbar = () => {
     return (
@@ -15,17 +15,6 @@ const Navbar = () => {
           </nav>
         </div>
       )
-}
-
-const CustomLink = ({to, children, ...props}) => {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({path: resolvedPath.pathname, end: true})
-
-  return (
-    <li className={isActive ? 'active' : ''}>
-      <Link to={to} {...props}>{children}</Link>
-    </li>
-  )
 }
 
 export default Navbar;

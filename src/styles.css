@@ -96,7 +96,24 @@ body {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 .nav-profile {
     position: absolute;
     left: 90%;
+=======
+/* ProfilePage */
+.profile-username {
+    color: white;
+    margin: 20px;
+}
+
+.profile-friends-count {
+    color: white;
+    margin: 20px;
+}
+
+.profile-pfp {
+    margin: 20px;
+    border-radius: 50%;
+>>>>>>> 9b70e1b465e558b916dcf9cdfce458d7040835dc
 }
