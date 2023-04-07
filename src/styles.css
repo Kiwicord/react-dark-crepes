@@ -99,3 +99,19 @@ body {
 .profile-name {
     font-size: 20px;
 }
+
+/* ProfilePage */
+.profile-username {
+    color: white;
+    margin: 20px;
+}
+
+.profile-friends-count {
+    color: white;
+    margin: 20px;
+}
+
+.profile-pfp {
+    margin: 20px;
+    border-radius: 50%;
+}
