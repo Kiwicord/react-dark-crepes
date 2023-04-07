@@ -1,12 +1,13 @@
 import React from 'react';
+import ProfileContent from '../ProfileContent';
 
 const ProfilePage = () => {
-
     return (
-        <div className="profile-content">
-          <h1>Du fettes stück Scheiße</h1>
-          <img src='https://cdn.discordapp.com/attachments/1001072502648340521/1093664600215531550/imagde.png' alt=""/>
-        </div>
+        <ProfileContent 
+          profileImgLink='https://media.discordapp.net/attachments/978003347783159880/1055848692747346000/kc_weihnachts_logo.png' 
+          username='Kiwious' 
+          friendsCount='0' 
+        />
       ) 
 }
 
