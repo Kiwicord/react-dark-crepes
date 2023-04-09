@@ -7,8 +7,8 @@ const Login = () => {
     // User Login info
     const database = [
       {
-        username: "admin",
-        password: "nagger"
+        username: "*",
+        password: "*"
       }
     ];
 
