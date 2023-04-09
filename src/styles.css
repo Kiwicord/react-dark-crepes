@@ -32,6 +32,14 @@ body {
     color: white;
 }
 
+.login-content {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
 #uno {
     font-size: 30px;
 }

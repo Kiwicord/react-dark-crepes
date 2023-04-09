@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="nav">
           <nav>
             <ul>
-              <CustomLink className='home-nav-css' to='/'>Home</CustomLink>
+              <CustomLink className='home-nav-css' to='/home'>Home</CustomLink>
               <CustomLink to='/about'>About</CustomLink>
               <CustomLink to='/contact'>Contact</CustomLink>
               <Profile img_link='https://media.discordapp.net/attachments/978003347783159880/1055848692747346000/kc_weihnachts_logo.png'/>
