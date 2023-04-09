@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from "../Navbar";
 
 const Home = () => {
 
@@ -9,11 +10,14 @@ const Home = () => {
     }
 
     return (
+        <>
+        <Navbar/>
         <div className="home-content">
           <h4>I hate NIGGERS</h4>
           <button onClick={useStateSetKappa}>Free Candy</button>
           <p>{value}</p>
         </div>
+        </>
       ) 
 }
 

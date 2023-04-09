@@ -1,7 +1,5 @@
 import React from "react";
 
-import Navbar from "./Navbar";
-
 import Home from "./Pages/Home";
 import ProfilePage from "./Pages/ProfilePage";
 import Contact from './Pages/Contact'
@@ -13,7 +11,6 @@ import { Route, Routes } from "react-router-dom";
 const App = () => {
     return(
         <>
-        <Navbar/>
         <div className="wrapper">
             <Routes>
                 <Route path="/home" element={<Home/>}/>

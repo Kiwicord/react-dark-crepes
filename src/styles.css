@@ -119,3 +119,8 @@ body {
     margin: 20px;
     border-radius: 50%;
 }
+
+/* Login-Error */
+.error {
+    color:red;
+}

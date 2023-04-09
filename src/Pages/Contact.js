@@ -1,7 +1,10 @@
 import React from "react";
+import Navbar from "../Navbar";
 
 const Contact = () => {
     return (
+        <>
+        <Navbar/>
         <div className="contact-content">
             <div id="uno">
                 Wir bei Kiwicord freuen uns immer über Feedback und Fragen von unseren Mitgliedern und der Discord-Community. Wenn du eine Frage hast oder Hilfe benötigst, zögere bitte nicht, uns zu kontaktieren. Hier sind einige Möglichkeiten, wie du uns erreichen kannst:
@@ -19,6 +22,7 @@ const Contact = () => {
                 Vielen Dank für dein Interesse an Kiwicord. Wir freuen uns darauf, von dir zu hören!
             </div>
         </div>
+        </>
     )
 }
 
