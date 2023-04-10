@@ -10,6 +10,10 @@ const Login = () => {
       {
         username: "*",
         password: "*"
+      },
+      {
+        username: "Jason",
+        passwort: "sex"
       }
     ];
 
