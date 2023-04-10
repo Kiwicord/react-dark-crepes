@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import CustomLink from '../CustomLink';
 
 const Login = () => {
     const [errorMessages, setErrorMessages] = useState({});
@@ -69,7 +70,7 @@ const Login = () => {
     return (
         <div className="login-content">
             <div className="login-form">
-                {isSubmitted ? <meta http-equiv="refresh" content="0; URL=home" /> : renderForm}
+                {isSubmitted ? <CustomLink className='back-home' to='/home'>Return to Home</CustomLink> : renderForm}
             </div>
         </div>
     );
