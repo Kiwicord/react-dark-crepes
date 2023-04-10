@@ -13,7 +13,7 @@ const Login = () => {
       },
       {
         username: "Jason",
-        passwort: "sex"
+        password: "sex"
       }
     ];
 
