@@ -70,12 +70,10 @@ const Login = () => {
     return (
         <div className="login-content">
             <div className="login-form">
-                {isSubmitted ? <meta http-equiv="refresh" content="0; URL=/home" /> : renderForm}
+                {isSubmitted ? <CustomLink className='back-home' to='/home'>Return to Home</CustomLink> : renderForm}
             </div>
         </div>
     );
 };
 
 export default Login;
-
-//<CustomLink className='back-home' to='/home'>Return to Home</CustomLink>
