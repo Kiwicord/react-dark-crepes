@@ -14,8 +14,8 @@ const Login = () => {
     ];
 
     const errors = {
-      uname: "invalid username",
-      pass: "invalid password"
+      uname: "FLASCHER USER",
+      pass: "FLASCHES PASSWORT"
     };
 
     const handleSubmit = (event) => {
